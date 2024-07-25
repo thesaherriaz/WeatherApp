@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Weather App</h1>
+        <form onsubmit="weatherApp(); return false">
+            <label class="text" for="cityName">City : </label>
+            <input class="input" type="text" name="cityName" id="temp1" placeholder="Enter City Name">
+            <button class="btn" type="submit">Check Weather</button>
+            <h1 class="result" id="tempDisplay"></h1>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
